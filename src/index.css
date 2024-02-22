@@ -1,6 +1,15 @@
 body {
-  background-color: #f6f5fc;
+  background: linear-gradient(
+    90deg,
+    rgb(78, 112, 140) 11.2%,
+    rgb(137, 164, 170) 65%,
+    rgb(205, 213, 200) 100.2%
+  );
   font-family: sans-serif;
+}
+
+a {
+  color: rgb(80, 125, 130);
 }
 
 h1 {
@@ -25,7 +34,7 @@ select {
 .container {
   max-width: 600px;
   margin: 60px auto;
-  background: white;
+  background: rgba(255, 255, 255, 0.08);
   padding: 30px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
